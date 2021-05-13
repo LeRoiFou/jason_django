@@ -1,0 +1,16 @@
+Cours : Django #1 - introduction
+Lien : https://www.youtube.com/watch?v=iBGhDHtysAA
+
+Saisies effectuées sur GitBash :
+-> Installation du frameworks Django : python -m pip install Django
+-> Puis création d'un répertoire django : django-admin startproject index001
+-> Accès au répertoire créé : cd index001
+-> Affichage des fichiers présents : ls
+-> Execution du fichier python présent : python manage.py runserver
+
+Saisie sur @ -> localhost:8000
+
+Saisie effectée sur Gibash pour arrêter le serveur -> CTRL + C
+
+Éditeur : Laurent REYNAUD
+Date : 13-05-2021
