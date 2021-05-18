@@ -1,0 +1,21 @@
+Cours : Django #2 - structure d'un projet
+Lien : https://www.youtube.com/watch?v=rMHSCeA8Bfw
+
+Dans ce cours, on découvre la structure du projet Django généré qui comprend un répertoire 
+principal dont c'est le seul répertoire pour lequel le nom peut-être modifié
+
+Dans ce répertoire principal se trouve :
+-> Un sous-répertoire
+-> Un fichier de SGBD sqlite3 :)
+-> Un fichier .py nommé manage (exécutable du projet Django)
+
+Dans le sous-répertoire se trouve :
+-> Un répertoire __pycache__
+-> Le fichier .py de partage __init__.py
+-> Deux fichiers .py nommés : asgi.py et wsgi.py
+-> Un fichier .py sur les url : urls.py
+-> Un fichier .py sur les paramétrages : settings.py -> dans ce fichier, le code du langage
+a été passé en française : LANGUAGE_CODE = 'fr-FR'
+
+Éditeur : Laurent REYNAUD
+Date : 18-05-2021
