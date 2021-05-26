@@ -1,0 +1,27 @@
+Cours : Django #3 - création d'application
+Lien : https://www.youtube.com/watch?v=t1B3NocLLWY
+
+Dans ce programme on crée notre première application web à partir des étapes suivantes :
+
+1- Dans le terminal GitBash on crée un nouveau répertoire dans le répertoire index :
+python manage.py startapp nomRepertoire
+
+2- Création d'un fichier urls.py dans le nouveau répertoire créé (mangalib) avec
+saisie des données figurant dans ce fichier
+
+3- Saisie des données figurant dans le fichier views.py dans le nouveau répertoire mangalib
+
+4- Configuration du projet dans le fichier urls.py du répertoire index001, en rajoutant
+dans la liste 'urlpatterns': path('manga', include('mangalib.urls')
+
+5- Rajout du nom du nouveau projet dans la liste des applications par défaut 
+dans le fichier setting.py du répertoire index001 dans la partie INSTALLED_APPS
+
+6- Execution du fichier python dans le terminal GitBash : 
+python manage.py runserver
+
+7- Saisie sur @ :
+localhost:8000\manga
+
+Éditeur : Laurent REYNAUD
+Date : 26-05-2021
